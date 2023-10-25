@@ -1,0 +1,63 @@
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif ;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.top    {
+    color: rgb(86, 122, 214);
+    background-color: rgb(225, 225, 129);
+    display: flex;
+    justify-content: center;
+}
+
+.sottotitolo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+.focaccia {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+h5{
+    color:rgb(112, 109, 109);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+}
+
+.read {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+.readmore {
+    color: rgb(229, 78, 78);
+}
+
+hr {
+    color: rgb(144, 255, 255);
+}
+
+.testo {
+    font-family: 'Times New Roman', Times, serif ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
