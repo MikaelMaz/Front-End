@@ -1,0 +1,172 @@
+/* IMPOSTAZIONI GENERALI */
+HTML{
+    width: 450px;
+}
+#contenitori{
+    background-image: url(sfondo.png);
+}
+/* HEADER */
+header{
+    text-align: center;
+    width: 70%;
+    background-color: rgb(40, 153, 153);
+    border: auto ;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+div h3 {
+    font-size: smaller;
+    width: fit-content;
+    padding: center;
+    margin: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+div p {
+    width: fit-content;
+    padding: center;
+    margin: auto;
+    color: white;
+
+}
+
+/* MAIN */
+main {
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h4{
+    font-size: smaller;
+    color: rgb(180, 178, 178);
+    margin-bottom: 10px;
+}
+
+
+article {
+    color: black;
+}
+
+b {
+    font-weight: 100;
+}
+
+/* TABELLE */
+.titolino {
+    font-weight: bold;
+    text-align: center;
+}
+
+#blu {
+    background-color: rgb(72, 72, 236);
+    color: white;
+    width: max-content;
+    padding: 20px;
+    border: 1px;
+    border-color: rgb(173, 171, 171);
+}
+
+#tabella {
+    text-align: center;
+}
+
+footer {
+    width: 70%;
+    background-color: rgb(15, 54, 138);
+    color: white;
+    border: auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+#nuovo {
+    background-color: rgb(226, 224, 224);
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    width: fit-content;
+    color: white;
+    border: auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    
+}
+
+.validare {
+    background-color: rgb(226, 224, 224);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+    
+}
+
+.correggere {
+    background-color: rgb(226, 224, 224);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.meno {
+    background-color: rgb(226, 224, 224);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+   
+}
+
+button {
+    background-color: rgb(53, 53, 230);
+    color: white;
+    padding: 5px;
+}
+
+.prima {
+    display: block;
+    text-align: left;
+}
+
+.dopo {
+    display: block;
+    text-align: right;
+    text-align: bottom ;
+    
+}
+
+#viola {
+    color: blueviolet;
+}
