@@ -1,0 +1,246 @@
+body {
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    color: #701B01;
+}
+
+header {
+    margin: 0.5em;
+}
+
+nav {
+    display: flex;
+    background-color: #FEF7E2 ;
+    border-radius: 30%;
+    padding: 1em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+button {
+    background-color: #FFDF7F ;
+    border-radius: 30px;
+    border: #FFDF7F;
+    font-weight: 700;
+    font-size: large;
+    color: #701B01;
+}
+
+nav button {
+    font-size: 15px;
+}
+nav :nth-child(1) {
+    border-radius: 40px;
+    font-size: 1.7em;
+}
+.merda {
+    width: 40%;
+    padding: 0.9em 0.65em;
+}
+
+button span {
+    position: relative;
+    bottom: 6px;
+}
+nav button {
+    padding: 1em;
+    border-radius: 30px;
+    margin: 0.4em;
+}
+
+nav button img {
+    width: 20%;
+    padding-right: 10px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+article {
+    background-color: #FEF7E2 ;
+    border-radius: 20%;
+    margin: 0.5em;
+    margin-bottom: 1.5em;
+}
+main article img {
+    width: 300px;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+
+article h3 {
+    font-size: large;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 2.5em;
+}
+
+article p {
+    font-size: smaller;
+    text-align: left;
+    padding-top: 0.3em;
+    padding-left: 4.3em;
+}
+article h4 {
+    position: relative;
+    left: 6em;
+    bottom: 1.3em;
+}
+article button {
+    font-size: medium;
+    width: 11em;
+    height: 2em;
+    border-radius: 30px;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+}
+footer {
+    border-radius: 25px;
+    background-color: #FEF7E2 ;
+    padding-top: 2em;
+    margin: 0.5em;
+    padding-bottom: 2em;
+}
+footer h3 {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-top: 0.3em;
+    padding-bottom: 0.7em;
+    text-align: left;
+    padding-left: 1em;
+}
+footer p {
+    font-weight: medium;
+    text-align: left;
+    padding-left: 1.3em;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+footer img {
+    width: 85%;
+    padding-top: 2em;
+}
+
+@media screen and (min-width:576px) and (max-width: 768px) {
+    header {
+        margin: 0em;
+    } 
+    nav {
+        display: flex;
+        background-color: #FEF7E2 ;
+        border-radius: 0;
+        padding: 0em;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        align-items: baseline;
+    }
+
+    button {
+        background-color: #FFDF7F ;
+        border: #FFDF7F;
+        font-weight: 700;
+        font-size: large;
+        color: #701B01;
+        padding: 10px;
+    }
+    
+    nav button {
+        font-size: 12px;
+    }
+    .pupu :not(img) {
+        font-size: 15px;
+        font-weight: bolder;
+        border-radius: 90px;
+        width: 100px;
+        height: 70px;
+    }
+    nav :nth-child(1) {
+        order: 2;
+    }
+    nav :nth-child(2) {
+        order: 0;
+    }
+    nav :nth-child(3) {
+        order: 1;
+    }
+    nav :nth-child(4) {
+        order: 3;
+    }
+    nav :nth-child(5) {
+        order: 4;
+    }
+    .merda {
+        width: 100px;
+        border-radius: 90px;
+        height: 50px;
+        margin: 1.5px;
+    }
+    
+    button span {
+        position: relative;
+        bottom: 6px;
+    }
+    
+    nav button img {
+        width: 30px;
+        padding-right: 10px;
+    }
+    h1{
+        text-align: left;
+        padding-left: 0.5em;
+    }
+    main :not(h1) {
+        display: flex;
+    }
+    article :not(img){
+        background-color: #FEF7E2 ;
+        border-radius: 20%;
+        margin: 0.5em;
+        margin-bottom: 1.5em;
+        height: 400px;
+    }
+    main article img {
+        width: 250px;
+        height: 150px ;
+        border-top-right-radius: 20%;
+        border-top-left-radius: 20%;
+    }
+    
+    article h3 {
+        font-size: large;
+        font-weight: 600;
+        text-align: left;
+        padding-top: 1em;
+        padding-left: 2.5em;
+    }
+    
+    article p {
+        font-size: smaller;
+        text-align: left;
+        padding-top: 0.3em;
+        padding-left: 4.3em;
+    }
+    article h4 {
+        position: relative;
+        left: 6em;
+        bottom: 1.3em;
+    }
+    article button {
+        font-size: medium;
+        width: 11em;
+        height: 2em;
+        border-radius: 30px;
+        margin-bottom: 0.5em;
+    }
+
+
+}
