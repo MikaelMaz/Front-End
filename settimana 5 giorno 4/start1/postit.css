@@ -1,0 +1,114 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+h3 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top: 1em;
+}
+p {
+    font-size: 30px;
+}
+body {
+    background-color: #666666;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #666666;
+    justify-content: space-evenly;
+    margin: 90px 0px;
+}
+
+div {
+    width: 250px;
+    height: 200px;
+    align-self: center;
+    box-shadow: 1em 1em 2em#333333;
+    margin-bottom: 100px;
+}
+
+#p1 {
+    background-color: #F7F7C5;
+    transform: rotate(-4deg);
+}
+#p2 {
+    background-color: #BAE0BB;
+    transform: rotate(6deg);
+}
+#p3 {
+    background-color: #B5B4D3;
+    transform: rotate(-8deg);
+}
+#p4 {
+    background-color: #BAE0BB;
+    transform: rotate(5deg);
+}
+#p5 {
+    background-color: #F7F7C5;
+    transform: rotate(-7deg);
+}
+#p6 {
+    background-color: #B5B4D3;
+    transform: rotate(-9deg);
+}
+#p7 {
+    background-color: #F7F7C5;
+    transform: rotate(-5deg);
+
+}
+#p8 {
+    background-color: #BAE0BB;
+    transform: rotate(6deg);
+}
+
+#p1:hover {
+    transform: rotate(0deg);
+    scale: 1.2;
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+#p2:hover {
+    scale: 1.2;
+    transform: rotate(0deg);
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+#p3:hover {
+    scale: 1.2;
+    transform: rotate(0deg);
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+#p4:hover {
+    scale: 1.2;
+    transform: rotate(0deg);
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+#p5:hover {
+    scale: 1.2;
+    transform: rotate(0deg);
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+#p6:hover {
+    scale: 1.2;
+    transform: rotate(0deg);
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+#p7:hover {
+    scale: 1.2;
+    transform: rotate(0deg);
+    transition-property: all;
+    transition-duration: 1.5s;
+
+}
+#p8:hover {
+    scale: 1.2;
+    transform: rotate(0deg);
+    transition-property: all;
+    transition-duration: 1.5s;
+}
